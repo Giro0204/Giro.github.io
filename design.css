@@ -1337,3 +1337,31 @@ footer .footer__social a:hover {
   transform: translateY(-.25rem);
   transition: 1s;
 }
+/* Styles for navigation buttons */
+.nav__btns {
+    display: flex;
+    align-items: center;
+}
+
+/* Styles for the theme change button */
+#theme-button {
+    cursor: pointer;
+}
+
+/* Styles for the navigation toggle */
+.nav__toggle {
+    display: none; /* Initially hide */
+    cursor: pointer;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .nav__btns {
+        justify-content: space-between;
+    }
+
+    .nav__toggle {
+        display: block; /* Show on smaller screens */
+    }
+}
+
