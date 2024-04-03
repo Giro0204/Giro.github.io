@@ -221,3 +221,9 @@ if (certificatesLink) {
         certificatesSection.scrollIntoView({ behavior: 'smooth' });
     });
 }
+// JavaScript for toggle functionality
+document.getElementById('nav-toggle').addEventListener('click', function() {
+    document.getElementById('theme-button').classList.toggle('active');
+    // You can add more functionality here if needed
+});
+
